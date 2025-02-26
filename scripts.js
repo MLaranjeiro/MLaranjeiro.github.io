@@ -22,7 +22,8 @@ $(document).ready(function() {
   
     ScrollReveal().reveal(".header a, .profile-photo, .about-content, .education", { origin: "left" });
     ScrollReveal().reveal(".header ul, .profile-text, .about-skills, .experience", { origin: "right" });
-    ScrollReveal().reveal(".project-title, .contact-title, .experience-title, .education-title", { origin: "top" });
+    ScrollReveal().reveal(".project-title, .contact-title, .experience-title, .education-title, .skills-content", { origin: "top" });
     ScrollReveal().reveal(".projects, .contact", { origin: "bottom" });
+
     
   });
