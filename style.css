@@ -382,60 +382,71 @@ body {
 
 /* Skills */
 .skills-content {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .skills-title {
-    margin-bottom: 60px;
-    text-align: center;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .skills-title h4 {
-    text-transform: uppercase;
-    font-size: 40px;
-    line-height: 40px;
-    color: #fed700;
-    margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fed700;
+  margin-bottom: 20px;
 }
 
 .skills {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .skill-box {
-    color: #e5e5e5;
-    border: 2px solid #e5e5e5;
-    border-radius: 10px;
-    width: 100%;
-    position: relative;
-    padding: 25px;
-    text-align: center;
-    flex-basis: 45%;
-    margin-bottom: 30px;
-    transition: 0.3s;
+  color: #e5e5e5;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  padding: 25px;
+  text-align: center;
+  flex-basis: 45%;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.skill-box i {
+  background-color: #fed700;
+  width: 60px;
+  height: 60px;
+  color: #333;
+  font-size: 26px;
+  line-height: 60px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .skill-box h5 {
-    font-size: 26px;
-    color: #fed700;
-    margin-bottom: 20px;
+  font-size: 26px;
+  color: #fed700;
+  margin-bottom: 20px;
 }
 
 .skill-box ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    color: #e5e5e5;
-    text-align: left;
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #e5e5e5;
+  text-align: left;
 }
 
 .skill-box ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .skill-box:hover {
-    border-color: #fed700;
+  border-color: #fed700;
 }
 
 /* Footer */
