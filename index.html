@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Laranjeiro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-------------------------- Header Area -------------------------->
+    <header class="header-area">
+        <div class="container">
+            <div class="header">
+                <a class="logo">
+                    <h1>Matthew Laranjeiro</h1>
+                </a>
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+
+                </ul>
+                <div class="menu_icon">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-------------------------- Home Page -------------------------->
+    <div class="FirstElement" id="home">
+        <div class="profile-photo">
+            <img src="components/me.jpg" alt="picture of me">
+        </div>
+        <div class="profile-text">
+            <h5>Hi, I'm </h5><br>
+            <h1>Matthew Laranjeiro</h1><br>
+            <p>Software Developer | Hamilton, Ontario, Canada</p>
+            <p>Welcome to my portfolio! I'm a passionate software developer with a background in healthcare, bringing a unique perspective to technology and innovation.</p>
+            
+            <div class="btn-group">
+                <a href="components/MLaranjeiro.pdf" class="btn active">Download CV</a>
+                <a href="mailto:matthew.laranjeiro@mohawkcollege.ca" class="btn">Contact</a>
+            </div>
+
+            <div class="social">
+                <a href="mailto:matthew.laranjeiro@mohawkcollege.ca"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/MLaranjeiro"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/matthew-laranjeiro"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------- About Section -------------------------->
+    <section class="about-area" id="about">
+        <div class="container">
+            <div class="about">
+                <div class="about-content">
+                    <h4>About Me</h4>
+                    <p>As a software developer pursuing an advanced diploma in software development at Mohawk College, I bring expertise in programming languages (Java, C#, Python, JavaScript, PHP, HTML/CSS) and frameworks like ReactJS and Node.js. My technical skills are complemented by extensive experience in critical care (ICU) and neurosurgery, equipping me with a unique perspective to create innovative solutions that bridge technology and healthcare.</p>
+                </div>
+                <div class="about-skills">
+                    <ul>
+                        <li>Name: Matthew Laranjeiro</li>
+                        <li>Location: Hamilton, Ontario, Canada</li>
+                        <li>Email: matthew.laranjeiro@mohawkcollege.ca</li>
+                        <li>Phone: 289-698-1383</li>
+                        <li>Current: Co-op @ CREATE HHSC</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------- Experience Section -------------------------->
+    <section class="experience-content" id="experience">
+        <div class="container">
+            <div class="experience-title">
+                <h4>Professional Experience</h4>
+            </div>
+            <div class="experience">
+                <div class="timeline-box">
+                    <div class="timeline">
+                        <!-- Timeline-item -->
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">CREATE Digital Health Co-op, Hamilton Health Sciences</h3>
+                            <h4 class="timeline-title">05/2025 – 12/2025</h4>
+                            <ul class="timeline-text">
+                                <li>Will work in an agile team environment to design, develop, build, and test web, desktop, and mobile applications.</li>
+                                <li>Will collaborate with solutions architects, solutions developers, data scientists, and data engineers to create digital health applications.</li>
+                            </ul>
+                        </div>
+                        <!-- Timeline-item -->
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Registered Nurse - Part Time Instructor, Mohawk College</h3>
+                            <h4 class="timeline-title">11/2022 – present</h4>
+                            <ul class="timeline-text">
+                                <li>Taught 7 classes, reaching over 150 students, on clinical topics, fostering analytical thinking and problem-solving skills.</li>
+                                <li>Promoted student success by identifying individual strengths and learning styles.</li>
+                                <li>Engaged in continuous professional development and reflective practices.</li>
+                            </ul>
+                        </div>
+                        <!-- Timeline-item -->
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Registered Nurse - Level 2 Step-Down ICU, Hamilton Health Sciences</h3>
+                            <h4 class="timeline-title">10/2020 – 05/2025</h4>
+                            <ul class="timeline-text">
+                                <li>Monitored and managed complex systems, reinforcing attention to detail and proficiency in interpreting real-time data</li>
+                                <li>Collaborated with multidisciplinary teams to develop personalized patient care plans</li>
+                                <li>Participated in bedside neurosurgical procedures, showcasing an ability to operate under high pressure situations and adhere to precise protocols</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------- Projects Section -------------------------->
+    <section class="project-content" id="projects">
+        <div class="container">
+            <div class="project-title">
+                <h4>My Projects</h4>
+            </div>
+            <div class="projects">
+                <!-- 1st Project -->
+                <div class="project">
+                    <i class="fa fa-code"></i>
+                    <h4>Rock Climbing Tracker Application</h4>
+                    <p>Application for climbers to log completed routes, including route names, grades, and session details.</p>
+                </div>
+                <!-- 2nd Project -->
+                <div class="project">
+                    <i class="fa fa-code"></i>
+                    <h4>Patient Registration SPA</h4>
+                    <p>Single Page Application (SPA) built with React for patient registration. </p>
+                </div>
+                <!-- 3rd Project -->
+                <div class="project">
+                    <i class="fa fa-code"></i>
+                    <h4>Snake Game</h4>
+                    <br>
+                    <p>A classic Snake Game built using pure JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------- Education Section -------------------------->
+    <section class="education-content" id="education">
+        <div class="container">
+            <div class="education-title">
+                <h4>Education</h4>
+            </div>
+            <div class="education">
+                <div class="timeline-box">
+                    <div class="timeline">
+                        <!-- Timeline-item -->
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Advanced Diploma in Software Development, Mohawk College</h3>
+                            <h4 class="timeline-title">09/2023 – present</h4>
+                        </div>
+                        <!-- Timeline-item -->
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Bachelor of Science in Nursing, McMaster University</h3>
+                            <h4 class="timeline-title">09/2015 – 04/2019</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-------------------------- Skills Section -------------------------->
+    <section class="skills-content" id="skills">
+        <div class="container">
+            <div class="skills-title">
+                <h4>Skills</h4>
+            </div>
+            <div class="skills">
+                <div class="skill-box">
+                    <h5>Technical Skills</h5>
+                    <ul>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>HTML/CSS</li>
+                        <li>ReactJS</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="skill-box">
+                    <h5>Soft Skills</h5>
+                    <ul>
+                        <li>Analytical Thinking</li>
+                        <li>Problem Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Communication</li>
+                        <li>Adaptability</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------- Footer Section -------------------------->
+    <footer class="footer">
+        <small class="message">Thanks for visiting</small>
+        <small class="copyright">&copy; 2025 Matthew Laranjeiro. All rights reserved.</small>
+    </footer>
+
+    <!-------------------------- JS -------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
