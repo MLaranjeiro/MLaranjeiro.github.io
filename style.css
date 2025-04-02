@@ -240,21 +240,6 @@ body {
   flex-wrap: wrap;
 }
 
-.timeline {
-  position: relative;
-  margin-top: 20px;
-  border-left: 4px solid #fed700;
-}
-
-.timeline-item .circle-dot {
-  position: absolute;
-  left: -12px;
-  top: 5px;
-  width: 20px;
-  background-color: #fed700;
-  border-radius: 50%;
-}
-
 /* Projects */
 
 .project-content {
@@ -350,22 +335,23 @@ body {
   position: relative;
   padding: 20px 0;
   margin-top: 20px;
+  margin-top: 20px;
+  border-left: 4px solid #fed700;
+}
+
+.timeline-item .circle-dot {
+  position: absolute;
+  left: -12px;
+  top: 5px;
+  width: 20px;
+  background-color: #fed700;
+  border-radius: 50%;
 }
 
 .timeline-item {
   position: relative;
   padding-left: 40px;
   margin-bottom: 20px;
-}
-
-.timeline-item .circle-dot {
-  position: absolute;
-  left: 0;
-  top: 5px;
-  width: 10px;
-  height: 10px;
-  background-color: #fed700;
-  border-radius: 50%;
 }
 
 .timeline-title {
